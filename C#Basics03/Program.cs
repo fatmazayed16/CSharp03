@@ -11,6 +11,16 @@
             Console.WriteLine(obj);
             #endregion
 
+            #region 2nd Answer
+            Book book1 = new Book();
+            book1.Title = "2nd Answer";
+            book1.Pages = 464;
+            Console.WriteLine(book1.ToString());
+            Console.WriteLine(book1.Equals(book1));
+            Console.WriteLine(book1.GetType().Name);
+            Console.WriteLine(book1.GetHashCode());
+            #endregion
+
         }
     }
 }
