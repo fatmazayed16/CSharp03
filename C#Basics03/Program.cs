@@ -21,6 +21,11 @@
             Console.WriteLine(book1.GetHashCode());
             #endregion
 
+            #region 3rd Answer
+            // int pages = "464";
+            int pages = 464;
+            Console.WriteLine(pages);
+            #endregion
         }
     }
 }
