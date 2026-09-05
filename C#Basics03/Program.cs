@@ -58,6 +58,12 @@
             //Explicit conversion from double to int, y= 49.
             #endregion
 
+            #region 7th Answer
+            int PagesTxt = Convert.ToInt32("464");
+            Console.WriteLine(PagesTxt);
+            #endregion
+
+
         }
     }
 }
