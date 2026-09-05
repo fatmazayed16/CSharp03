@@ -63,7 +63,19 @@
             Console.WriteLine(PagesTxt);
             #endregion
 
+            #region 8th Answer
+            string yearText = "2023";
+            int year = int.Parse(yearText);
+            string badText = "abc";
+            bool flag = int.TryParse(badText, out int result);
+            //The TryParse method returns a boolean indicating, reasult = 0, and flag = false.
+            if (!flag)
+            {
+                    Console.WriteLine("Invalid number");
+            }
+            #endregion
 
-        }
+
+            }
     }
 }
