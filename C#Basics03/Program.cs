@@ -48,8 +48,14 @@
 
             #region 5th Answer
             int pages1 = 300;
-            double x= pages1;
+            double pages2 = pages1;
             //Implicit conversion from int to double
+            #endregion
+
+            #region 6th Answer
+            double price = 49.99;
+            int price2 = (int)price;
+            //Explicit conversion from double to int, y= 49.
             #endregion
 
         }
