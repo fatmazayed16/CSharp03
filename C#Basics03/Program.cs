@@ -45,6 +45,13 @@
             }
 
             #endregion
+
+            #region 5th Answer
+            int pages1 = 300;
+            double x= pages1;
+            //Implicit conversion from int to double
+            #endregion
+
         }
     }
 }
