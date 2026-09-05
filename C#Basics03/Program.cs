@@ -81,6 +81,14 @@
             Console.WriteLine(pagesString.GetType().Name);
             #endregion
 
+            #region 10th Answer
+            int copies = 100;
+            object obj10 = copies;
+            Console.WriteLine(obj10);
+            int copiesint = (int)obj10;
+            Console.WriteLine(copiesint);
+            #endregion
+
 
 
         }
